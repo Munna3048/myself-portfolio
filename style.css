@@ -11,7 +11,7 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
     
 }
@@ -44,4 +44,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#senior-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(255, 17, 0), rgb(255, 0, 157));
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 47, 255), rgb(30, 255, 0));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
